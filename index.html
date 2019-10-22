@@ -9,12 +9,8 @@
 	<script src="js/main.js"></script>
 	<link rel="stylesheet" href="css/main.css">
       <!--Including bootstrap css-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-
-    <!--Including scripts for bootstrap-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+ 
 </head>
 
 <body>
@@ -37,13 +33,10 @@
 				</table>
 			</div>
 			
-			<div class="col-sm-offset-1 col-sm-1">
-				<button class="btn btn-success" id="generateNumberBtn">Generate</button>
-			</div>
-			<div class="col-sm-1">
-				<button class="btn btn-danger" id="resetGenerateNumberTable">Reset</button>
-			</div>
-			
+            <div class="col-sm-offset-1 col-sm-1">
+                <button class="btn btn-success" id="generateNumberBtn">Generate</button>
+                <button class="btn btn-danger" id="resetGenerateNumberTable" style="margin-top: 25px;">Reset</button>
+            </div>
 		</div>
 
         <div class="row">
@@ -60,7 +53,7 @@
         <!--Board template-->
         <div id="userTemplateContainer0" style="display:none;">
             <div class="col-sm-3">
-                <table id="userBoard0" class="table table-bordered" board-number="0" onclick="userBoardClickEvent(event)">
+                <table id="userBoard0" class="table table-bordered" board-number="0">
                     <thead>
                         <tr>
                             <th>B</th>
