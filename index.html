@@ -45,7 +45,44 @@
 			</div>
 			
 		</div>
-		
+
+        <div class="row">
+            <div class="col-sm-offset-5 col-sm-2">
+                <h2>User boards</h2>
+            </div>
+        </div>
+        <div class="row" style="margin:15px;">
+            <div class="col-sm-offset-1 col-sm-1">
+                <button class="btn btn-success" id="addNewBoardBtn">Add new board</button>
+            </div>
+        </div>
+
+        <!--Board template-->
+        <div id="userTemplateContainer0" style="display:none;">
+            <div class="col-sm-3">
+                <table id="userBoard0" class="table table-bordered" board-number="0" onclick="userBoardClickEvent(event)">
+                    <thead>
+                        <tr>
+                            <th>B</th>
+                            <th>I</th>
+                            <th>N</th>
+                            <th>G</th>
+                            <th>O</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-sm-1">
+                <button class="btn btn-default" id="newBoardBtn0" board-number="0">New board</button>
+            </div>
+        </div>
+        <!--End of board template-->
+		<div class="row" id="userBoardContainer">
+
+        </div>
 	</div>
 </body>
 
